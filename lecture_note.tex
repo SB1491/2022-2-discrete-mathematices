@@ -220,4 +220,81 @@ $c_n =$ number of ways to parenthesize a product $x_1 x_2 \cdots x_n$
     ways to do this. The second is a product involving $x_r+1, x_r+2, \cdots, x_n$ $\rightarrow$
     $a_{n-r}$ ways.
 \end{ex}
+number of binary trees with $n$ leaves and 1 root. A tree is binary if 
+every vertex has degree 1 or 3. \\ 
+\begin{figure}[!h]
+    \centerline{\includegraphics[width=0.5\columnwidth]{tree.jpg}}
+    \caption{binary tree}
+    \label{tree} 
+\end{figure}
+A bijections among these sets (triangulations of $n+1$-gon, parenthesized products
+of $n$ vatiables, binary trees with $n$ leaves)
+\begin{ex}
+    Figure \ref{figure_1} is the bijection between the sets.
+    \begin{figure}[!h]
+        \centerline{\includegraphics[width=0.5\columnwidth]{bijection_gon.jpg}}
+        \caption{bijections}
+        \label{figure_1} 
+    \end{figure}
+\end{ex}
+\subsection{Product of exponential generating functions}
+\begin{align*}
+    A(x) &= \sum_{n\ge 0} a_n \frac{x^n}{n!} \\ 
+    B(x) &= \sum_{n\ge 0} b_n \frac{x^n}{n!}
+\end{align*}
+\begin{align*}
+    A(x)B(x) = \sum_{n\ge 0} c_n \frac{x^n}{n!} \text{ where } 
+    c_n = \sum_{i=0}^{n} {n \choose i} a_i b_{n-i}
+\end{align*}
+It means number of ways to partition on $n$-set into 
+two ordered blocks and create structure ``$A$'' in the 
+first block and structure ``$B$'' in the second block. \\ 
+\textbf{Remark} If ``$A$'' = ``$B$'', then $\frac{A(x)^2}{2!} = $ e.g.f
+for the number of ways to create two unordered blocks in an $n$-set and create
+structure ``$A$'' in each block.\\ 
+\textbf{Remark} If both blocks of an $n$-set has to be non-empty then
+let $a_0=b_0=0$ 
+\begin{ex}
+    $c_n = $ number of ways to color $n$ labeled balls with red and blue
+    so that an even number of balls are colored red and an odd number of balls
+    are colored blue.\\ 
+    $c_n = 0$ if $n$ is even. $c_n = 2^{n-1}$ if $n$ is odd.\\
+    $R(x) = $ e.g.f for $(1,0,1,0,\cdots) = 1 + \frac{x^2}{2!} + \frac{x^4}{4!} = 
+    \frac{e^x + e^{-x}}{2}$\\ 
+    $B(x) = $ e.g.f for 
+    $(0,1,0,1,\cdots) = x + \frac{x^3}{3!} + \frac{x^5}{5!} + \cdots = 
+    \frac{e^x - e^{-x}}{2}$
+    \begin{align*}
+        \sum_{n\ge 0} c_n \frac{x^n}{n!} &= C(x) = R(x)\cdot B(x) \\ 
+        &= \frac{e^{2x} - e^{-2x}}{4} \\ 
+        &= \frac{1}{4} \left[\left(1 + 2x + \frac{(2x)^2}{2!} + \cdots \right) - 
+        \left(1 - 2x + \frac{(2x)^2}{2!} - \cdots \right)\right]\\ 
+        &= \sum_{n\ge 0 \; n \text{ odd}} 2^{n-1} \frac{x^n}{n!}
+    \end{align*}
+\end{ex}
+\begin{ex}
+    Dearangement (revisited) 
+    \begin{align*}
+        P(x) = \sum_{n \ge 0} n! \frac{x^n}{n!} = \sum_{n \ge 0} x^n 
+        = \frac{1}{1-x} = \text{ e.g.f for } \{ \vert S_n \vert = n! \} 
+    \end{align*}
+    \begin{align*}
+        I(X) &= \sum_{n\ge 0} 1 \frac{x^n}{n!} = e^x \\ 
+        & = \text{ e.g.f for the number of identity permutations on an } n \text{-set} \\ 
+        & = \text{ e.g.f for the sequence } (1, 1, 1, \cdots )
+    \end{align*}
+    \begin{align*}
+        D(x) = \sum_{n\ge 0} d_n \frac{x^n}{n!} \text{ where } d_n= 
+        \text{ number of dearangements on an } n \text{-set}
+    \end{align*}
+    $P(x) = I(x)D(x)$ because a permutations on an $n$-set is obtained by 
+    \begin{enumerate}
+        \item partitioning the $n$-set into two ordered blocks.
+        \item create the identity permutations on the first block and
+        create a dearangement on the second block.
+    \end{enumerate}
+    \begin{align*}
+        \therefore D(x) = P(x)I(x)^{-1} = \frac{e^{-x}}{1-x}
+    \end{align*}
+\end{ex}
 \end{document} 

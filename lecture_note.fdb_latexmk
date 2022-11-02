@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1667366913 "/home/rty/Documents/discrete_mathematics/lecture_note.tex" "/home/rty/Documents/discrete_mathematics/lecture_note.pdf" "lecture_note" 1667366913
+["pdflatex"] 1667369531 "/home/rty/Documents/discrete_mathematics/lecture_note.tex" "/home/rty/Documents/discrete_mathematics/lecture_note.pdf" "lecture_note" 1667369536
   "/etc/texmf/web2c/texmf.cnf" 1666761140 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/rty/Documents/discrete_mathematics/lecture_note.aux" 1667366913 713 994ec29efe8885047e3015ef480dc045 ""
-  "/home/rty/Documents/discrete_mathematics/lecture_note.tex" 1667366912 8153 db5472246165589cdc07cbca3ff86d52 ""
+  "/home/rty/Documents/discrete_mathematics/lecture_note.aux" 1667369532 1200 ec3e7ef30393f4ce273c6cf936c97de1 ""
+  "/home/rty/Documents/discrete_mathematics/lecture_note.tex" 1667369535 11459 a0e75cdf6e237d4f9feeffb59ef5c23d ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -193,11 +193,13 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1581979058 38841 ce3692aa899bb693b90b87eaa5d4d84e ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1666761187 4770781 1ed1abab22da9c3e2cc82e4db562318b ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1666761212 8257140 7a89510ca3160f9c6d7eec40789a7243 ""
-  "lecture_note.aux" 1667366913 713 994ec29efe8885047e3015ef480dc045 "pdflatex"
-  "lecture_note.tex" 1667366912 8153 db5472246165589cdc07cbca3ff86d52 ""
+  "bijection_gon.jpg" 1667367621 157029 1c76592e1a84f1dbd91e1ded7b4136da ""
+  "lecture_note.aux" 1667369532 1200 ec3e7ef30393f4ce273c6cf936c97de1 "pdflatex"
+  "lecture_note.tex" 1667369535 11459 a0e75cdf6e237d4f9feeffb59ef5c23d ""
+  "tree.jpg" 1667367614 135444 009aab622d5f261903782ac01e2bbc81 ""
   (generated)
   "lecture_note.aux"
   "/home/rty/Documents/discrete_mathematics/lecture_note.log"
-  "lecture_note.pdf"
   "/home/rty/Documents/discrete_mathematics/lecture_note.pdf"
   "lecture_note.log"
+  "lecture_note.pdf"
