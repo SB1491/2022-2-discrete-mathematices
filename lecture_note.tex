@@ -28,6 +28,7 @@
 \newtheorem{pp}{Proposition}
 \newtheorem{nt}{Notation}
 \newtheorem{cor}{Corollary}
+\newtheorem{lm}{Lemma}
 \newtheorem*{pf}{Proof}
 \newenvironment{pf*}{\pushQED{\qed}\pf}{\popQED\endpf}
 \setstretch{1.3}
@@ -38,6 +39,86 @@
 \maketitle
 
 \section{Introduction}
+\subsection{Mobius Inversion}
+Let $D_n$ = all divisor set of positive integer $n$. \\
+$a, b \in D_n, a \le b \Leftrightarrow a \vert b$  \\ 
+Define $\mu : D_n \times  D_n \rightarrow \mathbb{R}$ 
+\begin{align*}
+    \mu(a,b) =
+    \begin{cases}
+        (-1)^r & \text{ if } a \;\vert\; b \text{ and } \frac{b}{a} 
+        \text{ is the product of } k \text{ distinct primes} \\ 
+        0 & \text{otherwise}
+    \end{cases}
+\end{align*}
+\begin{align*}
+    \mu (b) = \mu (1, b) = 
+    \begin{cases}
+        (-1)^r & \text{square free} \\ 
+        0 & \text{not square free} 
+    \end{cases}
+\end{align*}
+\begin{lm}
+    For $m > 1$, 
+    \begin{align*}
+        \sum_{d \in D_m} \mu (d) =
+        \begin{cases}
+            1 & (m=1) \\ 
+            0 & (m \ne 0) 
+        \end{cases}
+    \end{align*}
+    \begin{align*}
+        \sum_{a \le c \le b} \mu (a, c) = 
+        \begin{cases}
+            1 &  (a=b) \\ 
+            0 & \text{otherwise}
+        \end{cases}
+    \end{align*}
+    \begin{align*}
+        \sum_{d} \mu (d) = \sum_{i=0}^{r} {r \choose i} (-1)^i = 0
+    \end{align*}
+\end{lm}
+\begin{thm}
+    For function $f, g : D_m \rightarrow \mathbb{R}$,
+    \begin{align*}
+        g(n) = \sum_{d\in D_n} f(d) \Leftrightarrow 
+        f(n) = \sum_{d \in D_n} \mu (d, n) g(n) = \sum \mu (d) g(\frac{n}{d})
+    \end{align*}
+\end{thm}
+\begin{pf*} $( \Rightarrow )$
+    \begin{align*}
+        &\sum_{d\in D_n} \mu (d, n) \sum_{e \in D_d} f(e) \\
+        &= \sum_{e\in D_n} \sum_{e \le d \le d_n} \mu (d, n) f(e) \\ 
+        &= \sum_{e \in D_n} f(e) \sum_{e \le d \le D_n} \mu (d, n) = f(n) 
+    \end{align*}
+\end{pf*}
+\begin{cor}
+    \begin{align*}
+        \phi (n) = n \prod_{i=1}^{r} \left(1 - \frac{1}{p_i}\right) 
+        \Leftrightarrow n = \sum_{d \in D_n} \phi (d)
+    \end{align*}
+    show that
+    \begin{align*}
+        \phi (n) = \sum_{d \in D_n} \mu (d) \frac{n}{d}
+    \end{align*}
+\end{cor}
+\subsection{Generating Functions}
+Define power series ring $\mathbb{C} [[x]] = \left\{ \sum_{n \ge 0} a_n x^n \vert 
+a_n \in \mathbb{C}\; \forall n  \right\}$. `Formal' means evalutation or 
+radius of convergence is ignored. We call $x^n$ is a `placeholder' of $a_n$.
+$a_n$ = coefficient of $x^n$\\
+For a sequence $f : N_0 \rightarrow \mathbb{C} \; \left(f \in \mathbb{C}[[x]]\right)$ \\ 
+The ordinary generating function is 
+\begin{align*}
+    \sum f(n) x^n
+\end{align*}
+The exponential generating function is 
+\begin{align*}
+    \sum f(n) \frac{x^n}{n!}
+\end{align*}
+Let $A(x), B(x)$ ordinary. Then $AB = C$ is ordinary, where $c_n = 
+\sum_{i=0}^n a_i b_{n-i}$ convolution. \\
+
 Notation.
 Define
 $ e^x = \sum_{n\ge0} \frac{x^n}{n!}$ e.g.f for $(1,1,1, \cdots)$ \\ 
