@@ -624,4 +624,30 @@ Combinatirocial proof of $p_d (n) = p_o (n)$
         (1+x) (1+x^2) (1+x^4) (1+x^8) \cdots = 1 + x + x^2 + \cdots 
     \end{align*}
 \end{pf*}
+\begin{ex}
+    \begin{align*}
+        \lambda &= ( 12 , 9, 7, 6, 3, 2) \in {Par}_d (39) \\ 
+        12 &= 2^2 \cdot 3 \\ 
+        9 &= 2^0 \cdot 9 \\ 
+        7 &= 2^0 \cdot 7 \\ 
+        6 &= 2^1 \cdot 3 \\
+        3 &= 2^0 \cdot 3 \\ 
+        2 &= 2^1 \cdot 1
+    \end{align*}
+\end{ex}
+We can get $\overset{\sim}{\lambda} = ( 9, 7, 3, 3, 3, 3, 3, 3, 3, 1, 1)$. 
+We know how many 3 used and decompose $7 = 2^2 + 2^1 + 2^0$. 
+\begin{ex}
+    number of $\lambda \vdash n$ s.t. only odd parts may be repeated 
+    = number of $\lambda \vdash n$ s.t. no part appears more than 3 times.
+\end{ex}
+The generating function of first part is 
+\begin{align*}
+    &\frac{1}{1-x} (1+x^2) \frac{1}{1-x^3} (1+x^4) \cdots  \\ 
+    &= \frac{1}{1-x} \frac{(1+x^2)(1-x^2)}{1-x^2} \frac{1}{1-x^2} 
+    \frac{(1+x^4)(1-x^4)}{(1-x^4)} \cdots \\
+    &= \frac{1}{1-x} \frac{(1-x^4)}{1-x^2} \frac{1}{1-x^2} 
+    \frac{(1-x^8)}{(1-x^4)} \cdots \\ 
+    &= (1+x + x^2 + x^3)(1+ x^2 +x^4 +x^6) \cdots 
+\end{align*}
 \end{document}  
