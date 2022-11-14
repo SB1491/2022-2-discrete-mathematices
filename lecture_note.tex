@@ -558,7 +558,11 @@ where $r_n$ is the number of spanning forests in $K_n$
     e^{T(x)} = 1 + T(x) + \frac{T(x)^2}{2!} + \cdots
 \end{align*}
 We can think coefficient of $\frac{x^n}{n!}$ in $\frac{T(x)^k}{k!} \; (k\ge 0)$ \\ 
-coef pyo \\ 
+\begin{figure}[!h]
+    \centerline{\includegraphics[width=0.5\columnwidth]{tree.jpg}}
+    \caption{binary tree}
+    \label{tree} 
+\end{figure}
 Define $f$-vector of $K_n$ 
 \begin{align*}
     f_{K_n} &= (f_0, f_1, \cdots , f_{n-1}) \\ 
@@ -567,6 +571,11 @@ Define $f$-vector of $K_n$
     f_{K_6} &= (1, 15, 105, 435, 1080, 1296)
 \end{align*}
 Log-cocavity of $f_{K_n}$ (proved by Heo) \\ 
+\begin{figure}[!h]
+    \centerline{\includegraphics[width=0.5\columnwidth]{n_k_pyo.jpg}}
+    \caption{}
+    \label{n_k_pyo} 
+\end{figure}
 Define an alternating sum 
 \begin{align*}
     \alpha (K_n) = f_{n-1} - f_{n-2} + f_{n-3} - \cdots \pm f_0
@@ -650,4 +659,151 @@ The generating function of first part is
     \frac{(1-x^8)}{(1-x^4)} \cdots \\ 
     &= (1+x + x^2 + x^3)(1+ x^2 +x^4 +x^6) \cdots 
 \end{align*}
-\end{document}  
+\subsection{Durfee Square}
+\begin{align*}
+    p_{sc}(n) &= \text{ number of self-conjugate partitions of }n \\ 
+    &= \text{ number of }n \text{ with all parts odd and distinct} \\ 
+    p_{sc}(n : d) &= \text{ number of self-conjugate partitions of } n 
+    \text{ with } d\times d \text{ Durfee square}  \\ 
+    &= \text{ number of partitions of } n -d^2 \text{ with the largest
+    part } \ge d 
+    \\ &\text{ and each part appearing even number of times}
+\end{align*}
+$n-d^2$ is the coefficient of $x^n$ in $\frac{x^{d^2}}{(1-x^2)(1-x^4) \cdots (1-x^{2d})}$
+\begin{align*}
+    \therefore p_{sc}(n) = \sum_{d\ge 0} p_{sc}(n : d)
+\end{align*}
+\begin{align*}
+    \sum_{n\ge 0} p_{sc}(n) x^n &= \prod_{i \ge 1} \left( 1+ x^{2i - 1}\right) 
+    = (1+x) (1+x^3) ( 1+x^5)  \cdots \\ 
+    &= \sum_{d \ge 0} \frac{x^{d^2}}{(1-x^2)(1-x^4) \cdots (1-x^{2d})}
+\end{align*}
+Suppose $\lambda \vdash n$ is self-conjugate, i.e., $\lambda = \lambda^*$.
+The Durfee square of $\lambda$ = the largest square of the form $d \times d$
+in the upper left corner of $\lambda$
+\begin{ex}
+    $\lambda = 7,5,3,2,2,1,1 \vdash 21$
+    \begin{figure}[!h]
+        \centerline{\includegraphics[width=0.5\columnwidth]{durfee_square.jpg}}
+        \caption{durfee square}
+        \label{durfee square} 
+    \end{figure}
+\end{ex}
+\subsection{Two Variable Generating Function}
+\begin{thm}
+    \begin{align*}
+        \sum_{n, k \ge 0} p(n, k) x^n t^k &= \prod_{i\ge 1} \frac{1}{(1-x^i t)} \\ 
+        &= (1+xt+x^2 t^2 + \cdots )(1+x^2t + x^4 t^2 + \cdots )(1+x^3 t + x^6 t^2+ \cdots) \cdots 
+    \end{align*}
+    $p(n,k)$ means the number of partitions of $n$ with $k$ parts. 
+\end{thm}
+\begin{pf*}
+    The coefficient of $x^n t^k$ in the thoerem is the number of 
+    solutions to $e_1 + 2e_2 + \cdots + ne_n = n$ which is $p(n, k)$ with 
+    $e_1 + e_2 + \cdots + e_n = k$ 
+\end{pf*}
+\begin{cor}
+    \begin{align*}
+        \prod_{i\ge 1} \frac{1}{1+x^i t} &= \sum_{n, k \ge 0} p(n, k) 
+        x^n (-t)^k \\ 
+        &= \sum_{n \ge 0 } \left(p_e(n) - p_o(n)\right) x^n \text{ with } t = 1
+    \end{align*}
+\end{cor}
+\subsection*{Euler's pentagonal number theorem}
+\begin{figure}[!h]
+    \centerline{\includegraphics[width=0.5\columnwidth]{pentagonal_number.jpg}}
+    \caption{pentagonal number}
+    \label{pentagonal number} 
+\end{figure}
+\begin{align*}
+    \frac{1}{2}m (3m-1)
+\end{align*}
+\begin{center}
+    \begin{tabular}{c|c|c}
+        $m$ & $\frac{1}{2} m (3m-1)$ & $\frac{1}{2}m(3m+1)$ \\ 
+        \hline 
+        1 & 1 & 2 \\
+        2 & 5 & 7 \\
+        3 & 12 & 15
+    \end{tabular}
+\end{center}
+\begin{align*}
+    D(x, t) = \prod_{i \ge 1} (1+ x^i t) = \sum_{n \ge 0 } p_d (n, k) x^n t^k
+\end{align*}
+where $p_d (n, k)$ is the number of $\lambda \vdash n $ with $k$ parts and all 
+parts are distinct.
+\begin{align*}
+    D(x, -1) = \prod_{i\ge 1} (1 - x^i) &
+    = \sum_{n \ge 0} p_d(n, k) x^n (-1)^k \\ 
+    &= \sum_{n \ge 0} (e_n - o_n) x^n
+\end{align*}
+where $e_n$ is $p_d(n,k)$ when $k = $ even, vice versa. 
+\begin{align*}
+    P(x) &= \prod_{i\ge 1} \frac{1}{1-x^i}  \\ 
+    &= D(x, -1)^{-1}
+\end{align*}
+\begin{thm}
+    \begin{align*}
+        e_n - o_n = 
+        \begin{cases}
+            (-1)^m & \text{if } n = \frac{1}{2}m (3m\pm 1) \; (m \ge 1) \\ 
+            0 & \text{otherwise}
+        \end{cases}
+    \end{align*}
+    i.e. 
+    \begin{align*}
+        P(x)^{-1} &= D(x, -1) = Q(x) \\ 
+        &= 1- x - x^2 + x^5 + x^7 - x^{12} -x^{15} + x^{22} + x^{26} - \cdots 
+    \end{align*}
+    \begin{align*}
+        \therefore P(x)\cdot Q(x) = 1
+    \end{align*}
+    \begin{align*}
+        \Rightarrow p(n) - p(n-1) - p(n-2) + p(n-5) + p(n-7) 
+        - \cdots = 0 \; (n \ge 1)
+    \end{align*}
+\end{thm}
+\begin{pf*}
+    Let $E_n$ = the set of all $\lambda \vdash n $ with even number of parts
+    and all parts are distinct. \\ 
+    Idea. Define $f: E_n \rightarrow O_n$ which is a bijection if $n \ne 
+    \frac{1}{2}m(3m\pm 1)$ and ``almost'' a bijection if $n=\frac{1}{2}(3m\pm 1)$ \\
+    \begin{figure}[!h]
+        \centerline{\includegraphics[width=0.5\columnwidth]{S_T_diag.jpg}}
+        \caption{diag}
+        \label{diag} 
+    \end{figure}
+    \\
+    Define $S(\lambda) =$ the smallest part in $\lambda$, $t(\lambda) = $
+    length of the longest NE $\rightarrow$ SW diagonal starting at the tip 
+    of the largest part. \\ 
+    Case 1. $s(\lambda) \le t(\lambda)$ \\ 
+    Remove $s(\lambda)$ and attach it to the right of $t(\lambda)$\\ 
+    \begin{figure}[!h]
+        \centerline{\includegraphics[width=0.5\columnwidth]{stdiag2.jpg}}
+        \caption{case 1}
+        \label{diag1} 
+    \end{figure}
+    \\ 
+    Case 2. $s(\lambda) \ge t(\lambda)$ \\ 
+    Remove $t(\lambda)$ and attach it below $s(\lambda)$\\
+    \begin{figure}[!h]
+        \centerline{\includegraphics[width=0.5\columnwidth]{stdiag3.jpg}}
+        \caption{case 2}
+        \label{diag2} 
+    \end{figure}
+    \\
+    However, we cannot apply case 1 when $S(\lambda) \cap T(\lambda) \ne \emptyset$
+    and $s(\lambda) = t(\lambda)$ 
+    \begin{align*}
+        \Rightarrow n &= m + (m+ 1) + \cdots + (2m-1) \\
+        &= \frac{1}{2}m (3m-1)
+    \end{align*}
+    Also, we cannot apply case 2 when $S(\lambda) = m + 1$ and $t(\lambda) = m$ 
+    and $S(\lambda) \cap T(\lambda) \ne \emptyset$
+    \begin{align*}
+        \Rightarrow n &= (m+1) + (m+2) + \cdots + 2m \\ 
+        &= \frac{1}{2}m (3m+1)
+    \end{align*}
+\end{pf*}
+\end{document}

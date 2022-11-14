@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.10.26)  9 NOV 2022 15:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.10.26)  14 NOV 2022 15:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -669,7 +669,11 @@ Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footers
 \c@nt=\count352
 \c@cor=\count353
 \c@lm=\count354
- (/home/rty/Documents/discrete_mathematics/lecture_note.aux)
+ (/home/rty/Documents/discrete_mathematics/lecture_note.aux
+
+LaTeX Warning: Label `tree' multiply defined.
+
+)
 \openout1 = `lecture_note.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
@@ -777,20 +781,72 @@ Package pdftex.def Info: bijection_gon.jpg  used on input line 317.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[8 </home/rty/Documents/discrete_mathematics/tree.jpg>] [9 </home/rty/Documents/discrete_mathematics/bijection_gon.jpg>] [10] [11] [12] [13] [14] [15] [16] [17] [18] (/home/rty/Documents/discrete_mathematics/lecture_note.aux) ) 
+[8 </home/rty/Documents/discrete_mathematics/tree.jpg>] [9 </home/rty/Documents/discrete_mathematics/bijection_gon.jpg>] [10] [11] [12] [13] [14]
+File: tree.jpg Graphic file (type jpg)
+<use tree.jpg>
+Package pdftex.def Info: tree.jpg  used on input line 562.
+(pdftex.def)             Requested size: 172.5pt x 129.37462pt.
+ [15]
+<n_k_pyo.jpg, id=77, 1284.8pt x 1165.35374pt>
+File: n_k_pyo.jpg Graphic file (type jpg)
+<use n_k_pyo.jpg>
+Package pdftex.def Info: n_k_pyo.jpg  used on input line 575.
+(pdftex.def)             Requested size: 172.5pt x 156.46243pt.
+ [16 </home/rty/Documents/discrete_mathematics/n_k_pyo.jpg>] [17] [18]
+<durfee_square.jpg, id=87, 1284.8pt x 711.65875pt>
+File: durfee_square.jpg Graphic file (type jpg)
+<use durfee_square.jpg>
+Package pdftex.def Info: durfee_square.jpg  used on input line 687.
+(pdftex.def)             Requested size: 172.5pt x 95.54855pt.
+
+Overfull \hbox (33.95401pt too wide) detected at line 697
+[]
+ []
+
+[19 </home/rty/Documents/discrete_mathematics/durfee_square.jpg>]
+<pentagonal_number.jpg, id=92, 982.67125pt x 1004.75375pt>
+File: pentagonal_number.jpg Graphic file (type jpg)
+<use pentagonal_number.jpg>
+Package pdftex.def Info: pentagonal_number.jpg  used on input line 714.
+(pdftex.def)             Requested size: 172.5pt x 176.37114pt.
+ [20 </home/rty/Documents/discrete_mathematics/pentagonal_number.jpg>] [21]
+<S_T_diag.jpg, id=99, 1284.8pt x 743.77875pt>
+File: S_T_diag.jpg Graphic file (type jpg)
+<use S_T_diag.jpg>
+Package pdftex.def Info: S_T_diag.jpg  used on input line 772.
+(pdftex.def)             Requested size: 172.5pt x 99.86104pt.
+<stdiag2.jpg, id=100, 1284.8pt x 678.535pt>
+File: stdiag2.jpg Graphic file (type jpg)
+<use stdiag2.jpg>
+Package pdftex.def Info: stdiag2.jpg  used on input line 783.
+(pdftex.def)             Requested size: 172.5pt x 91.10129pt.
+<stdiag3.jpg, id=101, 988.69376pt x 763.85374pt>
+File: stdiag3.jpg Graphic file (type jpg)
+<use stdiag3.jpg>
+Package pdftex.def Info: stdiag3.jpg  used on input line 791.
+(pdftex.def)             Requested size: 172.5pt x 133.26846pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[22 </home/rty/Documents/discrete_mathematics/S_T_diag.jpg> </home/rty/Documents/discrete_mathematics/stdiag2.jpg>] [23 </home/rty/Documents/discrete_mathematics/stdiag3.jpg>] (/home/rty/Documents/discrete_mathematics/lecture_note.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 27535 strings out of 481239
- 618665 string characters out of 5920376
- 871265 words of memory out of 5000000
- 42397 multiletter control sequences out of 15000+600000
+ 27577 strings out of 481239
+ 619340 string characters out of 5920376
+ 871359 words of memory out of 5000000
+ 42433 multiletter control sequences out of 15000+600000
  541414 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 67i,16n,71p,1650b,338s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 67i,16n,71p,1650b,340s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbc.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmcc.pfb>
-Output written on /home/rty/Documents/discrete_mathematics/lecture_note.pdf (18 pages, 654850 bytes).
+Output written on /home/rty/Documents/discrete_mathematics/lecture_note.pdf (23 pages, 893921 bytes).
 PDF statistics:
- 156 PDF objects out of 1000 (max. 8388607)
- 110 compressed objects within 2 object streams
+ 178 PDF objects out of 1000 (max. 8388607)
+ 121 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 23 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 53 words of extra memory for PDF output out of 10000 (max. 10000000)
 
