@@ -307,7 +307,7 @@ every vertex has degree 1 or 3. \\
 \begin{figure}[!h]
     \centerline{\includegraphics[width=0.5\columnwidth]{tree.jpg}}
     \caption{binary tree}
-    \label{tree} 
+    \label{binary tree} 
 \end{figure}
 A bijections among these sets (triangulations of $n+1$-gon, parenthesized products
 of $n$ vatiables, binary trees with $n$ leaves)
@@ -800,10 +800,159 @@ where $e_n$ is $p_d(n,k)$ when $k = $ even, vice versa.
         &= \frac{1}{2}m (3m-1)
     \end{align*}
     Also, we cannot apply case 2 when $S(\lambda) = m + 1$ and $t(\lambda) = m$ 
-    and $S(\lambda) \cap T(\lambda) \ne \emptyset$
+    and $S(\lambda) \;\cap\; T(\lambda) \ne \emptyset$
     \begin{align*}
         \Rightarrow n &= (m+1) + (m+2) + \cdots + 2m \\ 
         &= \frac{1}{2}m (3m+1)
     \end{align*}
 \end{pf*}
+\section{Graphs}
+\subsection{K\"onigberg's Bridges}
+\begin{figure}[!h]
+    \centerline{\includegraphics[width=0.5\columnwidth]{bridges.jpg}}
+    \caption{bridges}
+    \label{bridges} 
+\end{figure}
+Reduced Euler characteristic
+\begin{align*}
+    \overset{\sim}{\chi} = 1- \text{ number of vertices } + \text{ number of edges}
+\end{align*}
+\begin{defn}
+    A finite graph $G = (V, E)$ consists of 
+    \begin{itemize}
+        \item A finite vertex set $V= V(G)$
+        \item A finite edge (multi)set $E= E(G)$
+    \end{itemize}
+    An edge $e \in E$ is an unordered pair of vertices. We write $e = \{v, w\}
+    = vw$ where $v, w \in V$
+\end{defn}
+\begin{ex}
+    \begin{figure}[!h]
+        \centerline{\includegraphics[width=0.5\columnwidth]{graph_ex.jpg}}
+        \caption{graph example}
+        \label{graph example} 
+    \end{figure}
+    We call $\{12, 12\}$ parallel edges, $\{44\}$ loop, and $\{14, 23, 34\}$ simple edge.
+\end{ex}
+\begin{align*}
+    e = vw \in E \Leftrightarrow 
+    \begin{cases}
+       \; v \text{ and } w \text{ are adjacent} \\ 
+       \; e \text{ is incident with } v \text{ and } w \\
+       \; v \text{ and } w \text{ are endpoints of } e \\ 
+       \; e \text{ joins } v \text{ and } w
+    \end{cases}
+\end{align*}
+\begin{defn}
+Adjacenecy matrix $A(G) = (a_{ij})$ is $n\times n$ where $n=\vert V(G) \vert$ \\ 
+$a_{ij} = a_{ji} = $ number of edges joining vertices $i$ and $j \; (i \ne j)$ \\ 
+$a_{ii} = 0$ (if $G$ is loopless) ($a_{ii} = 2 \times $ number of loops at $i$)
+\end{defn}
+\begin{defn}
+    Degree matrix $D(G) = (d_{ij})$.
+    $d_{ii}$ = degree of vertex $i$. $d_{ij} = 0$
+    \end{defn}
+    
+\begin{ex}
+    For finite graph $G$, 
+    \begin{figure}[!h]
+        \centerline{\includegraphics[width=0.5\columnwidth]{graph_ex_2.jpg}}
+        \caption{graph example 2}
+        \label{grex2} 
+    \end{figure}
+    Adjacenecy matrix is 
+    \begin{center}
+        $\begin{bmatrix}
+            0 & 2 & 0 & 1 & 0 \\
+            2 & 0 & 1 & 1 & 0 \\
+            0 & 1 & 0 & 0 & 0 \\
+            1 & 1 & 0 & 0 & 0 \\
+            0 & 0 & 0 & 0 & 0
+        \end{bmatrix}$
+    \end{center}
+    \begin{center}
+        \begin{tabular}{c|ccccc}
+            $v$ & 1 & 2 & 3 &  4& 45 \\ 
+            \hline 
+            $\deg n$ & 3 & 4 & 1 & 4 & 0
+        \end{tabular}
+    \end{center}
+
+\end{ex}
+\begin{thm}
+    A finite graph $G$ has an even number of odd degree vertices.
+\end{thm}
+\begin{pf*}
+    Suffies to show
+    \begin{align*}
+        \sum_{v \in V(G)} \deg v = \text{ even integer}
+    \end{align*}
+    Indeed 
+    \begin{align*}
+        \sum_{v \in G}  \deg v = 2 \vert E \vert
+    \end{align*}
+    because every edge $e \in E$ contributes 2. 
+\end{pf*}
+\begin{defn}
+    A fiinte graph $G$ is simple if $G$ has no loops and no multiple edges.
+\end{defn}
+\begin{ex}
+    The complete graph $K_n$ 
+    \begin{align*}
+        V(K_n) &= [n] \\
+        E(K_n) &= \{ij \;\vert\; 1 \le i < j \le n\} = {[n] \choose 2} \\
+        \vert E(K_n) \vert &= {n \choose 2}
+    \end{align*}
+    \begin{figure}[!h]
+        \centerline{\includegraphics[width=0.5\columnwidth]{cp_graph.jpg}}
+        \caption{complete graph}
+        \label{cp graph} 
+    \end{figure}
+    \\
+    We can order edges lexiographically.
+    \begin{align*}
+        E(K_5) = {12, 13, 14, 15, 23, 24, 25, 34, 35, 45}
+    \end{align*}
+\end{ex}
+\begin{figure}[!h]
+    \centerline{\includegraphics[width=0.5\columnwidth]{subgraphs.jpg}}
+    \caption{subgraphs}
+    \label{sg} 
+\end{figure}
+\begin{defn}
+    \begin{itemize}
+    \item    $H$ is a subgraph of $G$, $H \subseteq G$, if $V(H) \subseteq V(G) $ and $E(H) \subseteq E(G)$ 
+    \item $H$ is a spanning subgraph of $G$ if $V(H) = V(G)$ and $E(G) \subseteq E(G)$ 
+    \item $H$ is an induced subgraph of $G$ if $V(H) \subseteq V(G)$ and $ab \in E(H) \Leftrightarrow ab \in E(G)$
+    \end{itemize}
+\end{defn}
+A simple graph has two vertices of the same degree (PHP)
+\begin{defn}
+    A path in a graph $G$ from $a$ to $b$ $(a, b \in V(G))$ is a subgraph 
+    consisting of 
+    \begin{enumerate}
+        \item distinct vertices $a = v_0, v_1, \cdots, v_k = b$
+        \item distinct edges $v_0 v_1, v_1 v_2, \cdots, v_{k-1} v_k $
+    \end{enumerate}
+    \begin{figure}[!h]
+        \centerline{\includegraphics[width=0.5\columnwidth]{path.jpg}}
+        \caption{path}
+        \label{path} 
+    \end{figure}
+    \begin{figure}[!h]
+        \centerline{\includegraphics[width=0.5\columnwidth]{trail_walk.jpg}}
+        \caption{trails and walk}
+        \label{tw} 
+    \end{figure}
+\end{defn}
+\begin{defn}
+    G is connected if a path exists between any pair of vertices in $G$. 
+\end{defn}
+\begin{defn}
+    A cycle is a ``closed'' path, i.e., $a=b$.
+\end{defn}
+\begin{defn}
+    A component of $G$ is a connected induced subgraph that is maximal 
+    under inclusion.
+\end{defn}
 \end{document}
