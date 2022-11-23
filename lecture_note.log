@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.10.26)  16 NOV 2022 15:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.10.26)  23 NOV 2022 15:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -672,26 +672,26 @@ Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footers
  (/home/rty/Documents/discrete_mathematics/lecture_note.aux)
 \openout1 = `lecture_note.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for LUC/nanummj/m/n on input line 37.
-LaTeX Font Info:    Trying to load font information for LUC+nanummj on input line 37.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for LUC/nanummj/m/n on input line 38.
+LaTeX Font Info:    Trying to load font information for LUC+nanummj on input line 38.
  (/usr/share/texlive/texmf-dist/tex/latex/nanumtype1/lucnanummj.fd
 File: lucnanummj.fd 2013/02/12 v0.1 Nanum Myeongjo font definitions
 )
-LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    ... okay on input line 38.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count355
@@ -717,48 +717,48 @@ Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count361
  ABD: EveryShipout initializing macros
-LaTeX Font Info:    Trying to load font information for U+msa on input line 39.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 40.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 39.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 40.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
 Package amsmath Warning: Foreign command \atopwithdelims;
 (amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 79.
+(amsmath)                 on input line 80.
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
-Underfull \hbox (badness 10000) in paragraph at lines 118--121
+Underfull \hbox (badness 10000) in paragraph at lines 119--122
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--128
+Underfull \hbox (badness 10000) in paragraph at lines 123--129
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 142--144
+Underfull \hbox (badness 10000) in paragraph at lines 143--145
 
  []
 
 [3]
-Overfull \hbox (2.25249pt too wide) in paragraph at lines 181--183
+Overfull \hbox (2.25249pt too wide) in paragraph at lines 182--184
 \OT1/cmr/m/n/10 (1) $[][] \OML/cmm/m/it/10 A[]$ \OT1/cmr/m/n/10 and $[][] \OML/cmm/m/it/10 B[]$ \OT1/cmr/m/n/10 are well-defined $\OMS/cmsy/m/n/10 ) [][] \OML/cmm/m/it/10 A[]B[] \OT1/cmr/m/n/10 = [] []$ 
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 192--194
+Underfull \hbox (badness 10000) in paragraph at lines 193--195
 
  []
 
 
-Overfull \hbox (21.9017pt too wide) in paragraph at lines 200--203
+Overfull \hbox (21.9017pt too wide) in paragraph at lines 201--204
 []\OT1/cmr/bx/n/10 Example 5. []$[] \OT1/cmr/m/n/10 = [][] = [][](1 + \OML/cmm/m/it/10 z[]\OT1/cmr/m/n/10 ) = [][] \OML/cmm/m/it/10 p[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 x[] \OT1/cmr/m/n/10 = [][] [] =
  []
 
@@ -766,12 +766,12 @@ Overfull \hbox (21.9017pt too wide) in paragraph at lines 200--203
 <tree.jpg, id=49, 1284.8pt x 963.6pt>
 File: tree.jpg Graphic file (type jpg)
 <use tree.jpg>
-Package pdftex.def Info: tree.jpg  used on input line 308.
+Package pdftex.def Info: tree.jpg  used on input line 309.
 (pdftex.def)             Requested size: 172.5pt x 129.37462pt.
 <bijection_gon.jpg, id=50, 1284.8pt x 967.615pt>
 File: bijection_gon.jpg Graphic file (type jpg)
 <use bijection_gon.jpg>
-Package pdftex.def Info: bijection_gon.jpg  used on input line 317.
+Package pdftex.def Info: bijection_gon.jpg  used on input line 318.
 (pdftex.def)             Requested size: 172.5pt x 129.91368pt.
 
 
@@ -780,22 +780,22 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [8 </home/rty/Documents/discrete_mathematics/tree.jpg>] [9 </home/rty/Documents/discrete_mathematics/bijection_gon.jpg>] [10] [11] [12] [13] [14]
 File: tree.jpg Graphic file (type jpg)
 <use tree.jpg>
-Package pdftex.def Info: tree.jpg  used on input line 562.
+Package pdftex.def Info: tree.jpg  used on input line 563.
 (pdftex.def)             Requested size: 172.5pt x 129.37462pt.
  [15]
 <n_k_pyo.jpg, id=77, 1284.8pt x 1165.35374pt>
 File: n_k_pyo.jpg Graphic file (type jpg)
 <use n_k_pyo.jpg>
-Package pdftex.def Info: n_k_pyo.jpg  used on input line 575.
+Package pdftex.def Info: n_k_pyo.jpg  used on input line 576.
 (pdftex.def)             Requested size: 172.5pt x 156.46243pt.
  [16 </home/rty/Documents/discrete_mathematics/n_k_pyo.jpg>] [17] [18]
 <durfee_square.jpg, id=87, 1284.8pt x 711.65875pt>
 File: durfee_square.jpg Graphic file (type jpg)
 <use durfee_square.jpg>
-Package pdftex.def Info: durfee_square.jpg  used on input line 687.
+Package pdftex.def Info: durfee_square.jpg  used on input line 688.
 (pdftex.def)             Requested size: 172.5pt x 95.54855pt.
 
-Overfull \hbox (33.95401pt too wide) detected at line 697
+Overfull \hbox (33.95401pt too wide) detected at line 698
 []
  []
 
@@ -803,23 +803,23 @@ Overfull \hbox (33.95401pt too wide) detected at line 697
 <pentagonal_number.jpg, id=92, 982.67125pt x 1004.75375pt>
 File: pentagonal_number.jpg Graphic file (type jpg)
 <use pentagonal_number.jpg>
-Package pdftex.def Info: pentagonal_number.jpg  used on input line 714.
+Package pdftex.def Info: pentagonal_number.jpg  used on input line 715.
 (pdftex.def)             Requested size: 172.5pt x 176.37114pt.
  [20 </home/rty/Documents/discrete_mathematics/pentagonal_number.jpg>] [21]
 <S_T_diag.jpg, id=99, 1284.8pt x 743.77875pt>
 File: S_T_diag.jpg Graphic file (type jpg)
 <use S_T_diag.jpg>
-Package pdftex.def Info: S_T_diag.jpg  used on input line 772.
+Package pdftex.def Info: S_T_diag.jpg  used on input line 773.
 (pdftex.def)             Requested size: 172.5pt x 99.86104pt.
 <stdiag2.jpg, id=100, 1284.8pt x 678.535pt>
 File: stdiag2.jpg Graphic file (type jpg)
 <use stdiag2.jpg>
-Package pdftex.def Info: stdiag2.jpg  used on input line 783.
+Package pdftex.def Info: stdiag2.jpg  used on input line 784.
 (pdftex.def)             Requested size: 172.5pt x 91.10129pt.
 <stdiag3.jpg, id=101, 988.69376pt x 763.85374pt>
 File: stdiag3.jpg Graphic file (type jpg)
 <use stdiag3.jpg>
-Package pdftex.def Info: stdiag3.jpg  used on input line 791.
+Package pdftex.def Info: stdiag3.jpg  used on input line 792.
 (pdftex.def)             Requested size: 172.5pt x 133.26846pt.
 
 
@@ -829,7 +829,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <bridges.jpg, id=105, 1284.8pt x 1018.80624pt>
 File: bridges.jpg Graphic file (type jpg)
 <use bridges.jpg>
-Package pdftex.def Info: bridges.jpg  used on input line 812.
+Package pdftex.def Info: bridges.jpg  used on input line 813.
 (pdftex.def)             Requested size: 172.5pt x 136.78671pt.
 
 
@@ -839,50 +839,87 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <graph_ex.jpg, id=110, 1284.8pt x 1073.00874pt>
 File: graph_ex.jpg Graphic file (type jpg)
 <use graph_ex.jpg>
-Package pdftex.def Info: graph_ex.jpg  used on input line 831.
+Package pdftex.def Info: graph_ex.jpg  used on input line 832.
 (pdftex.def)             Requested size: 172.5pt x 144.06403pt.
  [24 </home/rty/Documents/discrete_mathematics/bridges.jpg> </home/rty/Documents/discrete_mathematics/graph_ex.jpg>]
 <graph_ex_2.jpg, id=114, 1124.2pt x 589.20125pt>
 File: graph_ex_2.jpg Graphic file (type jpg)
 <use graph_ex_2.jpg>
-Package pdftex.def Info: graph_ex_2.jpg  used on input line 859.
+Package pdftex.def Info: graph_ex_2.jpg  used on input line 860.
 (pdftex.def)             Requested size: 172.5pt x 90.40822pt.
  [25 </home/rty/Documents/discrete_mathematics/graph_ex_2.jpg>]
 <cp_graph.jpg, id=119, 1284.8pt x 521.95pt>
 File: cp_graph.jpg Graphic file (type jpg)
 <use cp_graph.jpg>
-Package pdftex.def Info: cp_graph.jpg  used on input line 907.
+Package pdftex.def Info: cp_graph.jpg  used on input line 908.
 (pdftex.def)             Requested size: 172.5pt x 70.07791pt.
 <subgraphs.jpg, id=120, 1284.8pt x 570.13pt>
 File: subgraphs.jpg Graphic file (type jpg)
 <use subgraphs.jpg>
-Package pdftex.def Info: subgraphs.jpg  used on input line 918.
+Package pdftex.def Info: subgraphs.jpg  used on input line 919.
 (pdftex.def)             Requested size: 172.5pt x 76.54665pt.
  [26 </home/rty/Documents/discrete_mathematics/cp_graph.jpg> </home/rty/Documents/discrete_mathematics/subgraphs.jpg>]
 <path.jpg, id=124, 1284.8pt x 734.745pt>
 File: path.jpg Graphic file (type jpg)
 <use path.jpg>
-Package pdftex.def Info: path.jpg  used on input line 938.
+Package pdftex.def Info: path.jpg  used on input line 939.
 (pdftex.def)             Requested size: 172.5pt x 98.64815pt.
 <trail_walk.jpg, id=125, 1284.8pt x 780.9175pt>
 File: trail_walk.jpg Graphic file (type jpg)
 <use trail_walk.jpg>
-Package pdftex.def Info: trail_walk.jpg  used on input line 943.
+Package pdftex.def Info: trail_walk.jpg  used on input line 944.
 (pdftex.def)             Requested size: 172.5pt x 104.84735pt.
- [27 </home/rty/Documents/discrete_mathematics/path.jpg> </home/rty/Documents/discrete_mathematics/trail_walk.jpg>] (/home/rty/Documents/discrete_mathematics/lecture_note.aux) ) 
+ [27 </home/rty/Documents/discrete_mathematics/path.jpg> </home/rty/Documents/discrete_mathematics/trail_walk.jpg>]
+<img/ham.jpg, id=129, 1284.8pt x 497.86pt>
+File: img/ham.jpg Graphic file (type jpg)
+<use img/ham.jpg>
+Package pdftex.def Info: img/ham.jpg  used on input line 974.
+(pdftex.def)             Requested size: 172.5pt x 66.84355pt.
+<img/even_proof.jpg, id=130, 859.21pt x 745.78625pt>
+File: img/even_proof.jpg Graphic file (type jpg)
+<use img/even_proof.jpg>
+Package pdftex.def Info: img/even_proof.jpg  used on input line 988.
+(pdftex.def)             Requested size: 172.5pt x 149.72359pt.
+ [28 </home/rty/Documents/discrete_mathematics/img/ham.jpg> </home/rty/Documents/discrete_mathematics/img/even_proof.jpg>]
+<img/acyclic.jpg, id=134, 1172.38pt x 434.62375pt>
+File: img/acyclic.jpg Graphic file (type jpg)
+<use img/acyclic.jpg>
+Package pdftex.def Info: img/acyclic.jpg  used on input line 1009.
+(pdftex.def)             Requested size: 172.5pt x 63.94395pt.
+<img/tree_unique.jpeg, id=135, 1461.46pt x 990.70125pt>
+File: img/tree_unique.jpeg Graphic file (type jpg)
+<use img/tree_unique.jpeg>
+Package pdftex.def Info: img/tree_unique.jpeg  used on input line 1020.
+(pdftex.def)             Requested size: 172.5pt x 116.92894pt.
+<img/isthmus.jpeg, id=136, 1688.3075pt x 833.1125pt>
+File: img/isthmus.jpeg Graphic file (type jpg)
+<use img/isthmus.jpeg>
+Package pdftex.def Info: img/isthmus.jpeg  used on input line 1028.
+(pdftex.def)             Requested size: 172.5pt x 85.12126pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[29 </home/rty/Documents/discrete_mathematics/img/acyclic.jpg> </home/rty/Documents/discrete_mathematics/img/tree_unique.jpeg>]
+<img/ce_acyclic.jpeg, id=140, 2666.96375pt x 1083.04625pt>
+File: img/ce_acyclic.jpeg Graphic file (type jpg)
+<use img/ce_acyclic.jpeg>
+Package pdftex.def Info: img/ce_acyclic.jpeg  used on input line 1048.
+(pdftex.def)             Requested size: 276.00105pt x 112.07887pt.
+ [30 </home/rty/Documents/discrete_mathematics/img/isthmus.jpeg> </home/rty/Documents/discrete_mathematics/img/ce_acyclic.jpeg>] (/home/rty/Documents/discrete_mathematics/lecture_note.aux) ) 
 Here is how much of TeX's memory you used:
- 27630 strings out of 481239
- 620085 string characters out of 5920376
- 871398 words of memory out of 5000000
- 42479 multiletter control sequences out of 15000+600000
+ 27676 strings out of 481239
+ 620820 string characters out of 5920376
+ 871474 words of memory out of 5000000
+ 42517 multiletter control sequences out of 15000+600000
  541749 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  67i,16n,71p,1650b,342s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbc.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmcc.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on /home/rty/Documents/discrete_mathematics/lecture_note.pdf (27 pages, 1201455 bytes).
+Output written on /home/rty/Documents/discrete_mathematics/lecture_note.pdf (30 pages, 1900499 bytes).
 PDF statistics:
- 203 PDF objects out of 1000 (max. 8388607)
- 134 compressed objects within 2 object streams
+ 218 PDF objects out of 1000 (max. 8388607)
+ 140 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 88 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 118 words of extra memory for PDF output out of 10000 (max. 10000000)
 

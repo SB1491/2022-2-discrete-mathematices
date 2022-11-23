@@ -29,6 +29,7 @@
 \newtheorem{nt}{Notation}
 \newtheorem{cor}{Corollary}
 \newtheorem{lm}{Lemma}
+\newtheorem*{rmk*}{Remark}
 \newtheorem*{pf}{Proof}
 \newenvironment{pf*}{\pushQED{\qed}\pf}{\popQED\endpf}
 \setstretch{1.3}
@@ -953,6 +954,117 @@ A simple graph has two vertices of the same degree (PHP)
 \end{defn}
 \begin{defn}
     A component of $G$ is a connected induced subgraph that is maximal 
-    under inclusion.
+    under inclusion. \\ 
+    component grim
 \end{defn}
+\begin{defn}
+    Eulerian circuit in $G$ is a circuit that contains all of the edges in $G$
+    (exactly once).
+\end{defn}
+\begin{defn}
+    Eulerian graph is a graph with an Eulerian circuit.
+\end{defn}
+\begin{defn}
+    Hamiltonian cycle in $G$ is a cycle that contains all
+    of the vertices in $G$.
+\end{defn}
+\begin{ex}
+    $K_4$ has 3 Hamiltonian cycle.
+    \begin{figure}[!h]
+        \centerline{\includegraphics[width=0.5\columnwidth]{img/ham.jpg}}
+        \caption{Hamiltonian cycle}
+        \label{ham} 
+    \end{figure}
+\end{ex}
+\begin{thm}
+    A finite graph $G$ with no isolated vertext is Eulerian if and only If
+    $G$ is connected and every vertex of $G$ has an even degree.
+\end{thm}
+\begin{pf*}
+    ($\Rightarrow$) Let $G$ Eulerian. \\
+    There exists a circuit that uses every edge in $G$. 
+    Every vertex of $G$ has and even degree.
+    \begin{figure}[!h]
+        \centerline{\includegraphics[width=0.5\columnwidth]{img/even_proof.jpg}}
+        \caption{}
+        \label{even pf} 
+    \end{figure}\\
+    ($\Leftarrow$) Pick a vertex $v$. Construct a citcuit starting and ending at $v$
+    using all edges incident to $v$. Call it $C$. \\ 
+    Then remove all the edges in $C$ from $G$. Let $G \setminus C = G_1 
+    \sqcup G_2 \sqcup \cdots \sqcup G_m$
+    when $C_i$'s are components in $G\setminus C$. Assume $G_1, G_2, \cdots,
+    G_m$ appear in this order along the circuit $C$. Note that 
+    in each $G_i$, every vertex has an even degree. By induction
+    on the number of edges in $G$, each $G_i$ contains an Eulerian curcuit
+    call it $C_i$. \\ 
+    Then $C\cup C_1 \cup C_2 \cup \cdots \cup C_m$ is an Eulerian circuit
+    in $G$.
+\end{pf*}
+\begin{defn}
+    A graph is acyclic if it contains no cycle. 
+\end{defn}
+\begin{ex} Acyclic graph
+    \begin{figure}[!h]
+        \centerline{\includegraphics[width=0.5\columnwidth]{img/acyclic.jpg}}
+        \caption{acyclic graph}
+        \label{a g} 
+    \end{figure}
+\end{ex}
+A connected acyclic graph is a tree. Hence an acyclic graph is 
+a disjoint union of trees. An acyclic graph is also called a forest.
+\begin{rmk*}
+    In an acyclic graph, there exists a unique path between 
+    two distinct vertices. 
+    \begin{figure}[!h]
+        \centerline{\includegraphics[width=0.5\columnwidth]{img/tree_unique.jpeg}}
+        \caption{unique path}
+        \label{u p} 
+    \end{figure} \\ 
+    A tree with at least one edge has a leaf (vertex of degree 1). \\
+    $G$ is acyclic iff every $e\in E(G)$ is a isthmus(=bridge).
+    An edge is a bridge if it connects two components.
+    \begin{figure}[!h]
+        \centerline{\includegraphics[width=0.5\columnwidth]{img/isthmus.jpeg}}
+        \caption{isthmus}
+        \label{imus} 
+    \end{figure}
+\end{rmk*}
+\begin{defn}
+    For any finite graph $H$, $c(H)$ = number of components in $H$ and
+     $e(H)$ = number of edges in $H$.
+\end{defn}
+\begin{thm}
+    Let $G$ be a finite graph with $n$ verticies and $H$ a 
+    spanning subgraph of $G$, i.e., $V(H) = V(G)$.
+    \begin{enumerate}
+        \item $c(H) + e(H) \ge n$
+        \item $c(H) + e(H) = n $ iff $H$ is acyclic. 
+    \end{enumerate} 
+\end{thm}
+\begin{ex}
+    Let $G = K_4$.
+    \begin{figure}[!h]
+        \centerline{\includegraphics[width=0.8\columnwidth]{img/ce_acyclic.jpeg}}
+        \caption{c+e}
+        \label{ce} 
+    \end{figure}
+\end{ex}
+\begin{pf*}
+    Suppose $H = H' \cup e$. $c(H) = c(H')$ iff $e$ is not an isthmus.
+    $c(H) = c(H') - 1$ iff $e$ an isthmus. Therfore $c(H) \ge c(H') - 1$.
+\end{pf*}
+\begin{defn}
+    Let $G$ be a finite graph with $n$ vertices. A spanning tree
+    of $G$ is a spanning subgraph $T$ of $G$ (i.e., $V(T) = G(T)$)satisfying any two of
+    the following condition.
+    \begin{enumerate}
+        \item $T$ is acyclic. : $c(T) + e(T) = n$
+        \item $T$ is connected. : $c(T) = 1$
+        \item $T$ has $n-1 $ edges. $e(T) = n- 1$
+    \end{enumerate}
+\end{defn}
+Hence, every spanning tree of $G$ with $\vert V(G) \vert = n$
+has $n-1$ edges. \\ 
+Every connected graph has a spanning tree. 
 \end{document}

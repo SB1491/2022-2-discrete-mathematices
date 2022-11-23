@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1668579275 "/home/rty/Documents/discrete_mathematics/lecture_note.tex" "/home/rty/Documents/discrete_mathematics/lecture_note.pdf" "lecture_note" 1668579276
+["pdflatex"] 1669184217 "/home/rty/Documents/discrete_mathematics/lecture_note.tex" "/home/rty/Documents/discrete_mathematics/lecture_note.pdf" "lecture_note" 1669184218
   "/etc/texmf/web2c/texmf.cnf" 1666761140 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/rty/Documents/discrete_mathematics/lecture_note.aux" 1668579275 4059 73263cbc7f7b7eff02fcedfac6d7bb8f ""
-  "/home/rty/Documents/discrete_mathematics/lecture_note.tex" 1668579274 34976 96fc53c2bffcd170c5fae0471780333c ""
+  "/home/rty/Documents/discrete_mathematics/lecture_note.aux" 1669184218 4924 b26809c019c715e053b32e568b5dd9d1 ""
+  "/home/rty/Documents/discrete_mathematics/lecture_note.tex" 1669184216 39047 5c8751e7ddd2438b906b93b13819b69d ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -205,8 +205,14 @@
   "durfee_square.jpg" 1668403107 52049 905e26534fb226b5a780469a1aa7b55e ""
   "graph_ex.jpg" 1668576475 56187 4a6b3106e56c928351a6c9488710f9d5 ""
   "graph_ex_2.jpg" 1668577448 25169 5850bcfe2b8cfc3b6deebd4f5df746bd ""
-  "lecture_note.aux" 1668579275 4059 73263cbc7f7b7eff02fcedfac6d7bb8f "pdflatex"
-  "lecture_note.tex" 1668579274 34976 96fc53c2bffcd170c5fae0471780333c ""
+  "img/acyclic.jpg" 1669181977 41395 69a5cc7f3795dd6b915c37303fa43e46 ""
+  "img/ce_acyclic.jpeg" 1669183336 322179 aa9e42f8f05afc354fb3ae11d7e6cf5d ""
+  "img/even_proof.jpg" 1669180946 29217 191f64aa9373b9b2b9f9db5ca10a33b0 ""
+  "img/ham.jpg" 1669180566 34709 fca6397dfecda6e53a72dab7854a3c8b ""
+  "img/isthmus.jpeg" 1669182814 125099 8c3bd4707b407fb90237fcf7b58dab20 ""
+  "img/tree_unique.jpeg" 1669182331 140022 6b122d28feb7430ed4d91d5640a53fec ""
+  "lecture_note.aux" 1669184218 4924 b26809c019c715e053b32e568b5dd9d1 "pdflatex"
+  "lecture_note.tex" 1669184216 39047 5c8751e7ddd2438b906b93b13819b69d ""
   "n_k_pyo.jpg" 1668403321 50630 6ae327ace89ec716a8c8db9b470cce68 ""
   "path.jpg" 1668579139 35555 a5c0a7822c98d80d6c3ea5f5fd9c00bc ""
   "pentagonal_number.jpg" 1668404176 30269 bb4fad6edd1535139e68d4b9075d4a71 ""
@@ -218,6 +224,6 @@
   (generated)
   "/home/rty/Documents/discrete_mathematics/lecture_note.pdf"
   "lecture_note.log"
+  "lecture_note.pdf"
   "lecture_note.aux"
   "/home/rty/Documents/discrete_mathematics/lecture_note.log"
-  "lecture_note.pdf"
